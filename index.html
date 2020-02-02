@@ -11,7 +11,23 @@
   </head>
   <body>
     <!-- nav button-->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
     <!-- navbar -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items">
+        <li><a href="index.html" class="nav-link">home</a></li>
+        <li><a href="./pages/skills.html" class="nav-link">skills</a></li>
+        <li><a href="./pages/products.html" class="nav-link">products</a></li>
+        <li><a href="./pages/about.html" class="nav-link">about</a></li>
+      </ul>
+    </nav>
     <!-- header start -->
     <header class="header">
       <div class="banner">
@@ -101,7 +117,7 @@
           <p class="about-text">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex, nulla?
           </p>
-          <a href="about.html" class="main-btn">Learn more</a>
+          <a href="./pages/about.html" class="main-btn">Learn more</a>
         </article>
       </div>
     </section>
@@ -124,7 +140,7 @@
             veniam ex vitae fuga tempore eligendi aliquam deserunt repudiandae
             voluptatibus!
           </p>
-          <a href="products.html" class="main-btn">Inventory</a>
+          <a href="./pages/products.html" class="main-btn">Inventory</a>
         </article>
         <!-- product inventory -->
         <article class="product-inventory clearfix">
@@ -268,5 +284,6 @@
         </p>
       </div>
     </footer>
+    <script src="./js/app.js"></script>
   </body>
 </html>
