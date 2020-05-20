@@ -1,6 +1,6 @@
 # Tea Station
 
-HTML and CSS project with minimal javascript
+HTML and CSS project with minimal javascript!
 
 ## Build
 
