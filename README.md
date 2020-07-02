@@ -9,4 +9,5 @@ Install live server from VS Code extensions and right click `index.html` file an
 ## Demo
 
 https://tea-station-html-css.netlify.com/ <br />
-https://tea-station-html-css.onrender.com/
+https://tea-station-html-css.onrender.com/ <br />
+https://tea-station-html-css.vercel.app/
